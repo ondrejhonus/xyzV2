@@ -34,8 +34,9 @@ img:hover{
 .top-bar a {
     color: white;
     text-decoration: solid;
-    font-size: 60px;
-    margin-left: 20px;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .top-bar a:hover {
@@ -49,19 +50,18 @@ img:hover{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
 }
 .list {
-    text-align: center;
+    text-align:center;
     display: none;
     position: absolute;
-    top: 100%;
+    top: 30px;
+    right: -115px;
     margin: 0;
-    margin-left: -150px;
+    margin-left: -240px;
     transition: transform 0.5s ease-in-out;
-    transform: scale(1.05);
-    background-color: rgb(24, 24, 24);
-    border: 5px solid black;
+    transform: scale(0.8);
     list-style: none;
 }
 .container:hover .list {
@@ -81,3 +81,14 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.185));
     width: 100%;
   }
+p{
+    color:rgb(214, 210, 210);
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 10px solid #333;
+    border-radius: 1000px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
