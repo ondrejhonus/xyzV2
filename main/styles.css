@@ -1,19 +1,21 @@
 body {
+    text-align: center;
     background-color: rgb(31, 31, 31);
-    width: 70%;
-    margin: auto;
+    width: 82.41vw;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif
+    
 }
 main{
-    margin-top: 200px;
+    margin-top: 10vw;
 }
 img {
-    width: 12.5rem;
+    width: 7vw;
     background-color: rgb(68, 68, 68);
     animation: pulse 5s infinite;
     transition: transform 0.5s ease-in-out;
-    border: 10px solid rgb(54, 54, 54);
-    border-radius: 7.5rem;
+    border: 8px solid rgb(54, 54, 54);
+    border-radius: 10vw;
 }
 img:hover{
     transform: scale(1.05);
@@ -27,16 +29,14 @@ img:hover{
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    padding: 0 5vw;
 }
 
 .top-bar a {
     color: white;
     text-decoration: solid;
     font-size: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
+
 }
 
 .top-bar a:hover {
@@ -57,9 +57,9 @@ img:hover{
     display: none;
     position: absolute;
     top: 30px;
-    right: -115px;
+    right: -1.5vw;
     margin: 0;
-    margin-left: -240px;
+    margin-left: 1vw;
     transition: transform 0.5s ease-in-out;
     transform: scale(0.8);
     list-style: none;
@@ -85,9 +85,9 @@ p{
     color:rgb(214, 210, 210);
     background-size:cover;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 2vw;
     text-align: center;
-    border: 10px solid #333;
+    border: 0.5vw solid #333;
     border-radius: 1000px;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
