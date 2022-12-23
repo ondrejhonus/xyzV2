@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gradually</title>
+</head>
+<body>
+    <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <header>
+
+
+        <div class="top-bar">
+            <a href="..\main\index.html" class="unselectable">Home</a>
+            <div class="container">
+                <a class="unselectable">Anime List</a>
+
+                <ul class="list">
+                    <style>
+                        li {
+                            animation: fadeInAnimation ease 0.5s;
+                            animation-iteration-count: 1;
+                            animation-fill-mode: forwards;
+                        }
+
+                        @keyframes fadeInAnimation {
+                            0% {
+                                opacity: 0;
+                            }
+
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+                    </style>
+                    <style>
+                        ul {
+                            padding-right: 2.5%;
+                        }
+                    </style>
+                    <style>
+                        li {
+                          margin-top: 5px;
+                          margin-bottom: 5px;
+                          border: 7px solid rgb(17, 17, 17);
+                        }
+                      </style>
+                    <li><a href="..\animeList\gradually.html" class="unselectable">Chronologically</a></li>
+                    <li><a href="..\animeList\rating.html" class="unselectable">From Best to Worst</a></li>
+                </ul>
+            </div>
+            <script>
+                function expandList() {
+                    var list = document.querySelector('.list');
+                    if (list.style.display === 'none') {
+                        list.style.display = 'block';
+                    } else {
+                        list.style.display = 'none';
+                    }
+                }
+            </script>
+            <a href="#" class="unselectable">About</a>
+        </div>
+    </header>
+    <main style="margin-top: 70px;">
+        <hr>
+        <h1><u>Really Good:</u></h1>
+
+        <h3>Certain Scientific Railgun</h3>
+
+        <h3>Certain Magical Index</h3>
+
+        <h3>Bunny Girl Senpai</h3>
+
+        <h3>One Punch Man</h3>
+
+        <h3>Lycoris Recoil</h3>
+
+        <h3>Demon Slayer: Entertainment District Arc</h3>
+
+        <h3>Tokyo Revengers</h3>
+
+        <h3>Black Bullet</h3>
+
+        <h3>Maid Sama</h3>
+
+        <h3>Spy x Family</h3>
+
+        <h3>Toradora</h3>
+
+        <h1><u>Good: </u></h1>
+
+        <h3>Murenase! Seton Gakuen</h3>
+
+        <h3>The World's finest assassin</h3>
+
+        <h3>Akashic Records of Bastard Magic Instructor</h3>
+
+        <h3>Love, Chunibyo and Other Delusions + S2</h3>
+
+        <h3>Demon Slayer S1</h3>
+
+        <h3>Call of the Night</h3>
+
+        <h3>Blend S</h3>
+
+        <h3>Miss caretaker of Sunohara-sou</h3>
+
+        <h3>Eromanga Sensei</h3>
+
+        <h3>Komi Can't Communicate S1 + S2</h3>
+
+        <h3>Love is War S3</h3>
+
+        <h3>Tsugumomo</h3>
+
+        <h3>Don't Toy With Me, Miss Nagatoro</h3>
+
+        <h3>My Dress-Up Darling</h3>
+
+        <h3>Cheat Kusushi no Slow Life</h3>
+
+        <h3>Rent a Girlfriend S2</h3>
+
+        <h3>Rent a girlfriend</h3>
+
+        <h3>The Helpful Fox Senko-san</h3>
+
+        <h3>The Cat Returns</h3>
+
+        <h3>Higehiro</h3>
+
+        <h3>Tokyo Ghoul S1 + S2 + S3 + S4</h3>
+
+        <h3>Love is War: S1,S2</h3>
+
+        <h3>Oreshura</h3>
+
+        <h3>Highschool DxD</h3>
+
+        <h3>SHIMONETA</h3>
+
+        <h3>Kiss x Sis</h3>
+
+        <h3>Netsuzou TRap</h3>
+
+        <h3>HighSchool DxD Hero</h3>
+
+        <h3>...</h3>
+        </p>
+        </p>
+    </main>
+    <footer>
+        <div class="copyright">
+            Copyright &copy; 2022 - Ondřej Honus
+          </div>
+    </footer>
+</body>
+</html>
