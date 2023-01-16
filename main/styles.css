@@ -22,6 +22,7 @@ img:hover{
 }
 .top-bar {
     position: fixed;
+    text-align: center;
     top: 0;
     left: 0;
     right: 0;
@@ -82,6 +83,7 @@ hr {
     width: 100%;
   }
 p{
+    width: 420px;
     color:rgb(214, 210, 210);
     background-size:cover;
     margin: auto;
