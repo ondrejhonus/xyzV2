@@ -9,75 +9,20 @@
     <title>Gradually</title>
 </head>
 <body>
-    <style>
-        body {
-            animation: fadeInAnimation ease 1s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+    <div class="tab-container">
+        <div class="tab">
+                <div class="nav-list">
+            <h6><a href="gradually.html">- Anime list: Gradually</a></h6>
+            <h6><a href="rating.html">- Anime list: Rating</a></h6>
+        </div>
+      </div>
+    </div>
     <header>
-
-
         <div class="top-bar">
-            <a href="..\index.html" class="unselectable">Home</a>
-            <div class="container">
-                <a class="unselectable">Anime List</a>
-
-                <ul class="list">
-                    <style>
-                        li {
-                            animation: fadeInAnimation ease 0.5s;
-                            animation-iteration-count: 1;
-                            animation-fill-mode: forwards;
-                        }
-
-                        @keyframes fadeInAnimation {
-                            0% {
-                                opacity: 0;
-                            }
-
-                            100% {
-                                opacity: 1;
-                            }
-                        }
-                    </style>
-                    <style>
-                        ul {
-                            padding-right: 2.5%;
-                        }
-                    </style>
-                    <style>
-                        li {
-                          margin-top: 5px;
-                          margin-bottom: 5px;
-                          border: 7px solid rgb(17, 17, 17);
-                        }
-                      </style>
-                    <li><a href="gradually.html" class="unselectable" style="background-color: rgb(31, 31, 31);">Chronologically</a></li>
-                    <li><a href="rating.html" class="unselectable" style="background-color: rgb(31, 31, 31);">From Best to Worst</a></li>
-                </ul>
+            <a href="../index.html" class="unselectable">Home</a>
+            <a class="unselectable" style="padding-left: 2.75em;">Anime List</a>
+            <a class="unselectable">Ondřej Honus</a>
             </div>
-            <script>
-                function expandList() {
-                    var list = document.querySelector('.list');
-                    if (list.style.display === 'none') {
-                        list.style.display = 'block';
-                    } else {
-                        list.style.display = 'none';
-                    }
-                }
-            </script>
         </div>
     </header>
     <main style="margin-top: 70px;">
@@ -190,13 +135,11 @@
 
 
         <h3>...</h3>
-            
-        </h3>
     </main>
     <footer>
         <div class="copyright">
             <div class="unselectable">
-            Copyright &copy; 2022 - Ondřej Honus
+            Copyright &copy; 2023 - Ondřej Honus
         </div>
     </div>
     </footer>

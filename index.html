@@ -5,105 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main\styles.css">
-    <link rel="stylesheet" href="main\animations.js">
-    <link rel="icon" href="images\logo.png">
+    <link rel="stylesheet" href="main/styles.css">
+    <link rel="icon" href="images/logo.png">
     <title>Socials</title>
+<script src="main/animations.js"></script>
+
 </head>
 
 <body>
-    <style>
-        body {
-            animation: fadeInAnimation ease 1s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @key_blank fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+    <div class="tab-container">
+        <div class="tab">
+                <div class="nav-list">
+            <h6><a href="animeList/gradually.html">- Anime list: Gradually</a></h6>
+            <h6><a href="animeList/rating.html">- Anime list: Rating</a></h6>
+        </div>
+      </div>
+    </div>
     <header>
-
-
         <div class="top-bar">
-            <a href="index.html" class="unselectable">Home</a>
-            <a>&#x2800; &#x2800;Ondřej Honus</a>
+            <a href="../index.html" class="unselectable">Home</a>
             <div class="container">
-                <a class="unselectable">Anime List</a>
-
-                <ul class="list">
-                    <style>
-                        li {
-                            animation: fadeInAnimation ease 0.5s;
-                            animation-iteration-count: 1;
-                            animation-fill-mode: forwards;
-                        }
-
-                        @key_blank fadeInAnimation {
-                            0% {
-                                opacity: 0;
-                            }
-
-                            100% {
-                                opacity: 1;
-                            }
-                        }
-                    </style>
-                    <style>
-                        ul {
-                            padding-right: 2.5%;
-                        }
-                    </style>
-                    <style>
-                        li {
-                          margin-top: 5px;
-                          margin-bottom: 5px;
-                          border: 7px solid rgb(17, 17, 17);
-                        }
-                      </style>
-                    <li><a href="animeList\gradually.html" class="unselectable" style="background-color: rgb(31, 31, 31);">Chronologically</a></li>
-                    <li><a href="animeList\rating.html" class="unselectable" style="background-color: rgb(31, 31, 31);">From Best to Worst</a></li>
-                </ul>
+                <a class="unselectable">Ondřej Honus</a>
             </div>
-            <script>
-                function expandList() {
-                    var list = document.querySelector('.list');
-                    if (list.style.display === 'none') {
-                        list.style.display = 'block';
-                    } else {
-                        list.style.display = 'none';
-                    }
-                }
-            </script>
         </div>
     </header>
 <main class="unselectable">
-<a href="https://github.com/QWERTYONDRA" target="_blank"><img src="images\github.png" alt="Github"></a>
-<a href="https://osu.ppy.sh/users/20503654" target="_blank"><img src="images\osu.png" alt="osu!"></a>
-<a href="https://www.instagram.com/ondrej.honus/" target="_blank"><img src="images\instagram.png" alt="Instagram"></a>
-<a href="https://twitter.com/0ndra_honuz" target="_blank"><img src="images\twitter.png" alt="Twitter"></a>
-<a href="https://www.facebook.com/ondrej.honus/" target="_blank"><img src="images\facebook.png" alt="Facebook"></a>
-<a href="https://open.spotify.com/user/ondrasihonda" target="_blank"><img src="images\spotify.png" alt="Spotify"></a>
-<a href="https://steamcommunity.com/id/qwerticek/" target="_blank"><img src="images\steam.png" alt="Steam"></a>
+<a href="https://github.com/QWERTYONDRA" target="_blank"><img src="images/github.png" alt="Github"></a>
+<a href="https://osu.ppy.sh/users/20503654" target="_blank"><img src="images/osu.png" alt="osu!"></a>
+<a href="https://www.instagram.com/ondrej.honus/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+<a href="https://twitter.com/0ndra_honuz" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+<a href="https://open.spotify.com/user/ondrasihonda" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+<a href="https://steamcommunity.com/id/qwerticek/" target="_blank"><img src="images/steam.png" alt="Steam"></a>
 
 </main>
         <footer>
             <div style="display: flex;">
-                <p>ondrasihonda@gmail.com</p>
+                <p id="email"></p>
                 </div>
             <div class="copyright">
                 <div class="unselectable">
-                Copyright &copy; 2022 - Ondřej Honus
+                Copyright &copy; 2023 - Ondřej Honus
             </div>
         </div>
         </footer>
+
 </body>
 
 </html>

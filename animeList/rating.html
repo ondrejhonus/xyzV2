@@ -9,76 +9,23 @@
     <title>Rating</title>
 </head>
 <body>
-    <style>
-        body {
-            animation: fadeInAnimation ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-        @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
     <header>
-
-
-        <div class="top-bar">
-            <a href="..\index.html" class="unselectable">Home</a>
-            <div class="container">
-                <a class="unselectable">Anime List</a>
-
-                <ul class="list">
-                    <style>
-                        li {
-                            animation: fadeInAnimation ease 0.5s;
-                            animation-iteration-count: 1;
-                            animation-fill-mode: forwards;
-                        }
-
-                        @keyframes fadeInAnimation {
-                            0% {
-                                opacity: 0;
-                            }
-
-                            100% {
-                                opacity: 1;
-                            }
-                        }
-                    </style>
-                    <style>
-                        ul {
-                            padding-right: 2.5%;
-                        }
-                    </style>
-                    <style>
-                        li {
-                          margin-top: 5px;
-                          margin-bottom: 5px;
-                          border: 7px solid rgb(17, 17, 17);
-                        }
-                      </style>
-                    <li><a href="..\animeList\gradually.html" class="unselectable" style="background-color: rgb(31, 31, 31);">Chronologically</a></li>
-                    <li><a href="..\animeList\rating.html" class="unselectable" style="background-color: rgb(31, 31, 31);">From Best to Worst</a></li>
-                </ul>
+        <div class="tab-container">
+            <div class="tab">
+                    <div class="nav-list">
+                <h6><a href="gradually.html">- Anime list: Gradually</a></h6>
+                <h6><a href="rating.html">- Anime list: Rating</a></h6>
             </div>
-            <script>
-                function expandList() {
-                    var list = document.querySelector('.list');
-                    if (list.style.display === 'none') {
-                        list.style.display = 'block';
-                    } else {
-                        list.style.display = 'none';
-                    }
-                }
-            </script>
+          </div>
         </div>
     </header>
     <main style="margin-top: 70px;">
+        <div class="top-bar">
+            <a href="../index.html" class="unselectable">Home</a>
+            <a class="unselectable" style="padding-left: 2.75em;">Anime List</a>
+            <a class="unselectable">Ondřej Honus</a>
+            </div>
+        </div>
         <h1><u>Really Good:</u></h1>
 
         <h3>Certain Scientific Railgun</h3>
@@ -164,13 +111,11 @@
         <h3>HighSchool DxD Hero</h3>
 
         <h3>...</h3>
-        </p>
-        </p>
     </main>
     <footer>
         <div class="copyright">
             <div class="unselectable">
-            Copyright &copy; 2022 - Ondřej Honus
+            Copyright &copy; 2023 - Ondřej Honus
         </div>
     </div>
     </footer>
