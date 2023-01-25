@@ -25,9 +25,6 @@ body {
     }
 }
 
-main {
-    margin-top: 11em;
-}
 
 img {
     width: 5.5em;
@@ -64,7 +61,7 @@ img:hover {
 
 }
 
-.top-bar a:hover {
+.top-bar {
     color: #ccc;
 }
 
@@ -101,14 +98,15 @@ p {
     font-weight: bold;
 }
 .tab-container {
-    position: absolute;
+    position: relative;
     left: -15.625em;
     top: 0;
-    width: 18.5em;
-    height: 90%;
+    width: 18em;
+    height: 100%;
     background: rgb(54, 54, 54);
     transition: left 0.5s ease-in-out;
     padding-top: 4em;
+    padding-bottom: 1em;
 }
 
 .tab-container:hover {
@@ -138,12 +136,20 @@ body:hover:before:hover+.tab-container {
     position: fixed;
     top: 3.4375em;
     left: 0.4375em;
+    z-index: 9999;
 }
+
 
 h6 a {
     padding-left: 0.3125em;
     font-weight: bolder;
     color: rgb(191, 191, 191);
-    font-size: 2em;
+    font-size: 1.95em;
     margin: auto;
+}
+h6{
+    
+}
+h6:hover{
+    transform: scale(1.1);
 }
