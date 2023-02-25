@@ -3,7 +3,7 @@ document.getElementById("submitButton").addEventListener("click", function() {
       window.location.href = "rating.html";
     }
   });
-  document.getElementById("codeInput").addEventListener("keyup", function(event) {
+  document.getElementById("passwordInput").addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
       if (checkCode()) {
         window.location.href = "rating.html";
@@ -11,8 +11,8 @@ document.getElementById("submitButton").addEventListener("click", function() {
     }
   });
   function checkCode() {
-    var code = document.getElementById("codeInput").value;
-    if (code === "6207") {
+    var code = document.getElementById("passwordInput").value;
+    if (code === "railgun") {
       return true;
     } else {
       alert("Incorrect code. Please try again.");
