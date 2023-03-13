@@ -1,2 +1,2 @@
 # xyzV2
-An attempt to remake my website "xyz"
+A succesful attempt of remaking my old website
