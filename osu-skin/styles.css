@@ -133,7 +133,6 @@ h6 a {
     font-weight: bolder;
     color: rgb(191, 191, 191);
     font-size: 1.95em;
-    margin: auto;
 }
 h6:hover{
     transform: scale(1.1);
